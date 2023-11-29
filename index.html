@@ -84,7 +84,7 @@ justify-content list-style margin none padding
     <title>Document</title>
 </head>
 <body>
-    <div class="carrousel" x-data="{}">
+    <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant" @click="p=$refs.parent ; p.scrollLeft -= p.clientWidth">
             &lt;
         </button>
